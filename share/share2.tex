@@ -1,0 +1,207 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{amscd}
+\usepackage{amssymb}
+
+\usepackage{color}
+\definecolor{light-gray}{gray}{0.95}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{graphicx} % For graphics
+
+\usepackage{listings} % For displaying code
+\usepackage{courier}
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\lstset{
+         basicstyle=\footnotesize\ttfamily, % font is monospace and small
+         %numbers=left,              
+         numberstyle=\tiny,          % size of numbers
+         %stepnumber=2,               
+         numbersep=5pt,              
+         tabsize=2,                  
+         extendedchars=false,         
+         breaklines=true,            
+         keywordstyle=\color{red},
+         stringstyle=\color{white}\ttfamily, 
+         showspaces=false,           % white spaces
+         showtabs=false,             % no character when tab is pressed
+         xleftmargin=25pt,
+         framexleftmargin=17pt,
+         framexrightmargin=5pt,
+         framexbottommargin=4pt,
+         %backgroundcolor=\color{lightgray},
+         showstringspaces=false      % don't show spaces    
+ }
+
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+%the below reassigns the function \texttt{} the name "code".  So instead of typing \texttt{blah blah} you can %type \code{blah blah}.  It's just easier.
+
+\newcommand{\code}[1]{\texttt{#1}}
+
+\title{	
+\normalfont \normalsize 
+%\textsc{The University of Iowa} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Ideas \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{J. Jason Bell} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+
+
+
+\begin{enumerate}
+ 
+
+\item A service that \textbf{applies for hundreds of jobs} for a single applicant.  You give the resume, they find positions in your industry, apply, and you can schedule interviews with them etc.  
+
+\item An \textbf{app that tracks new albums} from bands you like and designate.  Just knowing when bands I like have new albums would save me a lot of time. 
+
+\item \textbf{Entrepreneurial Toolbox.}  From lofty idea, across the valley of idea death, to a successful product launch, this toolbox provides data, consulting, and financial resources for entrepreneurs.  Y-Combinator for the masses.  
+
+\item \textbf{Flexible Book Shelf}.  Each shelf in the middle could be flexible in some way, so large items could fit, and you don't need to rearrange the shelves?  Not sure how much value this adds.  It does solve the problem of having to fit all your tall books in one shelf, and then wasting tons of space.  Maybe there is a better way.   
+
+\item \textbf{Artistic Watch Faces}.  A display made of flipping tiles, a display made of small rectangles that form a sun.  The sun grows as the day goes to midday and then shrinks back down toward night.  The main draw for these displays is beauty, like the visualizers in iTunes.  A new, novel way of displaying time that sacrifices accuracy for aesthetics.  
+
+\item \textbf{Minimalist, Self-Cleaning Microwave}.  Bad thing about microwaves: they are messy looking in and out.  Pare down the interface and build in a nice way of self-cleaning.  Perhaps a compartment in the front that you pour cleaning liquid in and then hit a side button which turns on the microwave and pumps out the liquid so it evaporates.  Then, have some automated wipers or a tool that comes with the unit to very easily and quickly clean the sides, which should be easy since there is a nice layer of cleaning liquid all over. 
+
+\item \textbf{A General Purpose Tracking App.}  Examples: track when you buy produce so you can make sure you eat them before expiration.  Track when you purchase clothes and from where and how fast they become worn out.  
+
+\item \textbf{Workline}.  A website that coordinates several Etsy-style projects in a complementary way to create more value.
+
+\item \textbf{A hollow couch} made with a very strong frame (carbon fiber or aluminum?) and one that you can open the back of for storage, cleaning, or because it's against a wall.  
+
+\item  \textbf{Better Backpack}.  What about a backpack which moves more weight to the front of the body.  Backpacks are heavy but the weight could be distributed better by having the straps be much wider and cover more surface area.  Like a vest.  The front could even have large pockets so you carried more weight at the front.  What if you could leverage that fact that your legs are really strong to offset some of the weight carried by the shoulders when you move your legs?  Ivar backpacks got a patent for a shelving system inside the backpack.  It distributes the weight better by moving some up higher.  On 7/22/2013 I safety pinned an iPad case to the straps on my backpack and it worked nicely.  I also discovered that moving some weight to the front is really helpful.  Also, a backpack that weights its contents.
+
+\item \textbf{Website} $\rightarrow$ \textbf{Brand}.  What about simply creating a website that is very nice, with a generic brand, and then slowly creating products to place there.  Start building the brand now because it takes a long time.  Can you build a good brand without a good product?  My current best brand name is Spire and my current favorite product is a watch whose face is composed of tons of little squares that are white on one side and black on the other and that display the time by flipping the correct squares to white.  Also, a pen with leather grip and stone head (so it's heavy) is a good idea to me.  Also the backpack mentioned above.  Also, a very powerful stapler.
+
+\item \textbf{Magnets} could replace buttons in clothing maybe?  I can see them doing a good job as snaps.  Though they aren't light.  
+
+\item A \textbf{Duck Commander iPhone/iPad app}.  It would be like duck hunt, but with Phil at the shotgun, and you'd have to blow the duck call at the right time.
+
+%\item \textbf{iWatch}.  You watch should make it so you don't have to carry anything else.  It tells time, makes calls, you %can pay with it, open your car with it, done. (Probably coming.)  Maybe I need to work for Apple?
+
+\item \textbf{MBA Student Labor}.  I like this idea: you take the consulting projects that MBA's do in classes, and do a meta-analysis-style quantitative aggregation of the results.  Then, you see if the aggregate does a good job of producing strategy.  If so, you could decrease the sample size and see how many people you'd need to produce it.  The real problem is this: you can only look at past ones.  You'd basically need a controlled experiment.  That might be difficult.  Maybe you could get some input from DJ and John Murry and maybe get one of those two or Tom Gruca to help you out collecting data by using their classes?
+
+This idea can be nested in a broader one: Quantification of qualitative analysis.  For example, you could select a group of people and ask them to give ideas about something.  Then use word recognition and that strange fuzzy logic stuff to create a neural network (like the guy who predicts stock prices) and predict how the business should do.  Data mining has been criticized because of "garbage in, garbage out" so how about take a guiding theory and priming people.  Or, you could maybe use a bayesian prior to represent theory's contribution to the prediction. 
+
+\item Invention: \textbf{shoes that "sweat"} on the bottom so you never lost grip
+
+\item \textbf{P\&G + Quirky}.  If P\&G sponsored a business model like Quirky, they could maybe do quite well.  Why don't they do it?  Take advantage of the customers willingness to invent stuff.  Maybe electronics companies could do the same with the very good ideas.  After I wrote this, Quirky teamed up with GE to do this.
+
+\item \textbf{Sega Phone}.  Nintendo, or Sega, should build gaming infrastructure around the smartphone.  Or maybe build a smartphone.
+
+\item \textbf{\$ for a Meeting.}  A website where you could trade money in return for a meeting with the right person.  Example transaction: 
+\$10,000 in return for an hour with the regional buyer of Wal-mart.
+
+\item For a while, I've thought that a cool name for a website would be \textbf{Bindr}.  I hadn't thought of what it could be until just now.  Maybe it could be a site where students record their cumulative learning.  You put your classes on there, papers you've read, notes you've taken, etc.  It could be categorized as a learning management system for the student's whole life, rather than for a semester.  It could generate CV's or resumes.  Another cool thing is that the learning could be searchable.  You could post homework on there, and answers upon request maybe.  Daniel mentioned that Evernote might fulfill this role.   
+
+\item An \textbf{oven that ``watches" your food} to figure out when it is time to turn off.  It could detect color shades like ``golden brown."  It would have to turn off early because stuff keeps cooking.  Maybe it could open vents and fan the air out so you wouldn't have to be there.  Similarly, a fridge that tracks when you put produce inside, and tells you when they expire.  Update: chips exist that can track food items.  
+
+\item \textbf{Household utility API's.}  An smartphone app paired with hardware sensors, placed around the house, to measure electricity usage, water usage, etc.  Like a bunch of API's linked to the phone.
+
+
+%
+%\item Take two agents, $A$ and $B$.  $A$ has a higher opportunity cost of time (perhaps due to exogenous factors, but perhaps dependent on the market variables), and provides a service with market value $v$ ($v$ has to be a service with a fixed value, something standardized that doesn't depend on the performance of the individual.  If you wanted to make it more complex, you could then have it be dependent on individuals.)  $B$ has a low opportunity cost of time, and a low income.  
+%
+%$A$ has oppt. cost of time $op_A > oc_B$.  In order to accept time as payment, $A$ requires that $ oc_A T = v \Rightarrow T(oc_A) = v/oc_A$, where $T$ represents the amount of time given by $B$.  
+%
+%If B wanted to purchase the service that A provides, it would be "cheaper" in some sense for B to pay in time.  Then, however, you run into the double-coincidence of wants problem.  So, if $v_B$ represents the value of the service to B, then B pays in time if: $$(v_B - oc_B T(oc_A) - (v_B - v) >c_d \hspace{5mm}\Rightarrow \hspace{5mm}v - oc_B T(oc_A) >c_d $$ (assuming everyone's utility is separable in cash, then v has the same utility value for everyone, since it is in dollar units).  
+
+\end{enumerate}
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

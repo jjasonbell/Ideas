@@ -1,0 +1,35 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+\title{Notes on \textit{The Signal and the Noise}}
+\author{J. Jason Bell}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+
+\begin{enumerate}
+\item Chaotic processes are nonlinear and dynamic, while complex processes are sometimes simple and stable, except for sometimes when they do crazy things.  You might say, well, we can treat complex processes like SS processes, and take the crazy times as errors.  Except the crazy times are things like a 9.2 magnitude earthquake that kills hundreds of thousands of people.  So, you care a lot about those times.    
+\item If $a$ is binary, the prior probability of a is $x$,  $Pr(b | a) = y$, and $Pr(b | \sim a) = z$, then: $$Pr(a |b) =  \frac{Pr(a) Pr(b|a)}{Pr(b)} = \frac{Pr(a) Pr(b|a)} {Pr(a)Pr(b|a) + (1 - Pr(a))Pr(b| \sim a) } =  \frac{x y} {xy + (1 - x) z}$$
+
+The bottom is integrating $a$ out of the joint density, which in this case means summing since the distribution is discrete.
+
+\item You do well where there are lots of suckers.  Find low hanging fruit, where the ``water level" is low.  The stock market, for example, has a lot of non-suckers, and you have to beat them all to make money (maybe). 
+
+\item Very few can make money in stocks, but it's probably not because the market is super rational and efficient.  It's probably because the market is so difficult to predict.  People often think ``the market is inefficient so I can make money."  They should think ``the market is inefficient, but hard to predict, so I probably can't make money."  
+
+\item Start simple and add complexity as necessary, like you would add salt when cooking.  
+
+
+\end{enumerate}
+
+
+\end{document}  

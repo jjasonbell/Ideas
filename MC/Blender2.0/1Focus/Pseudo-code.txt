@@ -1,0 +1,4 @@
+Psuedo-code for Blender 2.0:
+
+1. open a finviz screener with industry inflows in the last year.
+2. take the industry with the highest inflow

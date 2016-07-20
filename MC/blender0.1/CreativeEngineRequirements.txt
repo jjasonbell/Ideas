@@ -1,0 +1,27 @@
+What would a minimum viable creative engine look like?
+It is a computer program that takes lists as inputs and mixes them or transforms them to come up with new ideas.  Then, it evaluates those ideas, assigns a number to them, and gives the output.
+
+Requirements:
+Input lists 
+Transformation functions 
+Evaluation procedure
+
+I need to decide between two formulations.  One formulation is idea first, evaluation second.  Another formulation is evaluation (broad), idea, evaluation (narrow).
+
+In the evaluation procedure, four criterion must be hit: problem importance, solution novelty, solution effectiveness, and execution feasibility.  Failure on any of the 4 dimensions ruins the idea.
+
+Possibly relevant tools:
+-ATC: analytical target cascading.  A system for combining maximization problems.  Requires well defined maximization problems though.  Could be useful as an overall step. 
+-Morphology analysis. Expert generated feasibility constraints
+-Everything in the CAI literature
+
+Current research about idea evaluation uses experts in a domain as the standard.  It turns out that giving a lot of people a multiple-attribute rating scale can yield answers which are pretty close to the experts.  This has the benefit of being more scalable.  What about computers, though?  Could a computer be taught to give ratings like experts?  Is this a terrible idea?  In terms of predicting whether a product will succeed or fail though, maybe experts aren’t even very good.
+
+
+It seems important to have a list of problems and their importance.  This alone would be valuable.  Maybe I should start by compiling a huge list of problems.  This seems to be the hardest part.  
+
+Maybe I start a website.  It has 2 sections: problems seeking solutions, and solutions seeking problems.  Great, but how do I generate content for those 2 sections?
+
+The CAI group seems to have many of the bases covered in the area of feasibility, but they seem far from reaching their goal of a comprehensive system for understanding consumer needs and then coming up with solutions and then executing those solutions.
+
+

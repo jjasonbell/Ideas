@@ -1,0 +1,30 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+\title{An Implementation of Mechanized Creativity}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+
+\begin{enumerate}
+\item A domain is selected, either by a human or by an algorithm.
+	\begin{enumerate}
+	\item Humans can use contextual information, and can guess ahead of time about how easy a particular domain will fit into the remainder of the process, in particular evaluation and prototyping.
+	\item A computer has the advantage of a large amount of data to explore and a willingness to pursue any domain.
+	\end{enumerate}
+\item Once a domain is selected, a script collects the text from a Google search of the domain name.  This text comes from the first $N$ pages that Google finds.  
+\item The text is converted into a network structure, with each page serving as an element of a corpus, the words as nodes, and the co-occurrences of words within a page as edges.
+\item Use measures of centrality, or measures of divergence from the word distribution (such as Kullback-Leibler) 
+\end{enumerate}
+
+
+\end{document}  

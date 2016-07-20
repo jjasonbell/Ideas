@@ -1,0 +1,36 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Superforecasters by Philip Tetlock}
+\author{Notes by Jason Bell}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\section{Tetlock's 10 Commandments of Forecasting}
+\begin{enumerate}
+\item \textbf{Triage}.  Focus on questions where work is likely to pay off.  If there is an established algorithm, use that instead.  if you can use a simple rule-of-thumb for great results, use that.  If the question is too far into the future or too difficult to learn about, don't bother.  
+\item \textbf{Fermi-ize Problems}.  Break seemingly intractable problems into tractable sub-problems.  I think this works by improving the range of accessible data that your brain can bring to bear on the problem.
+\item \textbf{Balance Inside and Outside Views}.  Outside views generate base rates, or priors for the category.  Inside views are contextual cues that update the priors.
+\item \textbf{Update in a Balanced Manner}.  Basically, use Bayesian updating if you can.  If you aren't always writing out the formula, try to update pretty incrementally, letting a trickle of signals combine into a consistent stream, rather than moving back and forth erratically.
+\item \textbf{Find Clashes}.  Foxes look for disconfirming and counter intuitive evidence.  This forces you to consider more information and reduces bias.
+\item \textbf{Strive for Precision}.  Try to say 64\% instead of a range between 60 and 64\%.  If you are making up precision with no good reasoning, then that's dumb, but most forecasters use the entire 0-100 scale, where the other ones just use round numbers.
+\item \textbf{Try to balance Caution and Confidence}.  You can't rush to judgement but you have to commit to a prediction.  This refers to calibration (whether you're right) and resolution (how much confidence you placed in your correct guess).  For lots of problems you can be well calibrated with a terrible resolution by always guessing 50-50, or by always guessing a much more common outcome will happen.  
+\item \textbf{Learn from Mistakes, but don't Overthink them}.  You can see patterns when you screwed up, but hindsight bias can really cloud your vision of the past.  So you want to be careful about what you conclude from a single experience, for example.  
+\item \textbf{Work with Others}.  Perspective taking is important.  Aggregating independent signals is important.
+\item \textbf{Learn by Doing}.  Knowing the principles doesn't help much if you don't get a feel for how to use them in context.
+\item \textbf{Break the Rules if You Need}.  You can't be too rigid if you want to be a fox.  Rigidity is for hedgehogs.
+\end{enumerate}
+
+\section{Tetlock's Aggregation Method}
+The basic method Tetlock used to beat everyone: find superforecasters, put them in teams, and make their combined guesses more extreme to account for the fact that the combined guess accounts for more information than the contributors were aware of when they made their individual guesses.  
+
+
+\end{document}  

@@ -1,0 +1,15 @@
+ Note about mechanized innovation.
+
+Step 1 is hard, but not impossible seeming.  There might be a way to choose a domain with step 3 in mind, since the easier it is to evaluate, the easier it is to automate.
+
+It seems that a key part of any solution to step 1 requires network analysis.  You need to understand how ideas in the domain connect to one another.  Maybe google a term and then follow some of the links?  Maybe use pre-constructed networks when available, such as patent webs, article citations, derivative works (for lit, art, music), competitors (for products?).  
+
+On the other hand, how does Wildcat Technologies do it?  They just use combinatorics to try each mixture methodically.  They hold fixed the ingredients.  This is a bit different since the ingredients are up for grabs.  Combinatorics could be useful but only if evaluation is really fast.  If analytical or numerical optimization is readily available, that could also work.  
+
+It seems high-throughput combinatorial stuff is more to optimize combinations for a fixed set of ingredients.  The idea I’m proposing is more of a way to find brand new sets of ingredients.  However, they are closely related, and complementary for sure.
+
+————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+There is an expansion and contraction in most creative processes.  Brady suspected that HT would be good for the contraction phase, but I think it’s good for both.  It’s like a recipe: you can sample tons of different ingredients first to create many recipe bases, but then you can optimize conditional on a set of ingredients.  In the Maier et al. 2007 article, they call the two phases “discovery” and “optimization”.
+
+HTT companies: Symyx Technologies, hte-AG, Avantium, Ilika, Rosch Lab Systems, Accelergy

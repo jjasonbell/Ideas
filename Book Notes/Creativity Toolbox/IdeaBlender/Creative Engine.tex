@@ -1,0 +1,158 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{amscd}
+\usepackage{amssymb}
+
+\usepackage{color}
+\definecolor{light-gray}{gray}{0.95}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{graphicx} % For graphics
+
+\usepackage{listings} % For displaying code
+\usepackage{courier}
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\lstset{
+         basicstyle=\footnotesize\ttfamily, % font is monospace and small
+         %numbers=left,              
+         numberstyle=\tiny,          % size of numbers
+         %stepnumber=2,               
+         numbersep=5pt,              
+         tabsize=2,                  
+         extendedchars=false,         
+         breaklines=true,            
+         keywordstyle=\color{red},
+         stringstyle=\color{white}\ttfamily, 
+         showspaces=false,           % white spaces
+         showtabs=false,             % no character when tab is pressed
+         xleftmargin=25pt,
+         framexleftmargin=17pt,
+         framexrightmargin=5pt,
+         framexbottommargin=4pt,
+         %backgroundcolor=\color{lightgray},
+         showstringspaces=false      % don't show spaces    
+ }
+
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\setlength\parskip{\baselineskip}
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+%the below reassigns the function \texttt{} the name "code".  So instead of typing \texttt{blah blah} you can %type \code{blah blah}.  It's just easier.
+
+\newcommand{\code}[1]{\texttt{#1}}
+
+\title{	
+\normalfont \normalsize 
+%\textsc{The University of Iowa} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Creative Engine \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{J. Jason Bell} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+I created a small and simple piece of software which I am calling Creative Engine.  Hopefully, Creative Engine can accomplish 3 things:
+\begin{enumerate}
+\item Allow one person to access the knowledge base of hundreds of people for creative purposes
+\item Decrease the cost of idea generation
+\item Increase the scope of the user's consideration using randomization
+\end{enumerate}
+The rest of this document is to record progress on the software.  I hope to discover drawbacks and then overcome those drawbacks using iteration.  The iterations will appear below.
+
+\section*{Iteration 1}
+
+The file \code{blender.R} defines two functions on two lists.  The two functions are \code{blend} and \code{translate}.  The first function should probably be named \code{apply}, because it just suggests concepts to apply to the target.  The \code{translate} function uses Barry Nalebuff's question ``Can you flip it?" with many different operations, in addition to flip.  I think Nalebuff actually used the word `flip' to mean more than just a binary switch or a physical rotation of some sort, so \code{translate} is basically an attempt at a brute-force implementation of that process.
+
+I've developed some intuition about Creative Engine.  I believe that an increase in the volume of ideas requires an increase in the sophistication and power of filters.  Most ideas are bad and need to be weeded out.  That is easier for humans to do when they are dealing with a few ideas.  Creative Engine could produce potentially hundreds of them out in a short time.  I believe that the filters people will use are those that come to mind readily while using the software.  Things that don't make sense will be tossed away.  Perhaps this is a very good way.  However, some categorization scheme might help.  For example, you might run the code like this:
+$$\code{translate("angry birds", category = "apps")}$$  
+That might help people avoid too many translations or concepts that don't apply.  On the other hand, just moving on to the next one may be low cost.  Filtering rules can be applied \textit{a priori} like this categorization scheme, or \textit{a posteriori}, like the way people throw ideas out that they don't like.
+
+What are some good filtering rules?  Survival of the fittest might take too long or cost too much.  Humans might make flawed judgements. These are \textit{a posteriori} filtering rules.  The categorization scheme might work, though it does slightly compromise purpose \#3 of Creative Engine.  It seems all \textit{a priori} schemes have this drawback.  
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
