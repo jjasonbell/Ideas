@@ -60,7 +60,6 @@
          showstringspaces=false      % don't show spaces    
  }
 
-
 \usepackage{fancyhdr} % Custom headers and footers
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
 \fancyhead{} % No page header - if you want one, create it in the same way as the footers below
@@ -76,6 +75,17 @@
 \numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
 
 \setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+
 
 %----------------------------------------------------------------------------------------
 %	TITLE SECTION
@@ -480,15 +490,8 @@ would let you stay at their house.  Basically, the same way families host the mi
 This is a list of observations about myself that I may find helpful later on.
  
 \begin{enumerate}
-\item I really love minimalism in objects and spaces, but not necessarily at home.  I like to work in places like that.  I love the idea of attaching functions or activities to places.  I want to work in a minimalist building with high ceilings and talk with colleagues for hours about product design.
-\item When it comes to improving my thought patterns, there are a few things that seem to work consistently.  One is to quickly address the thought and change it.  The sooner the easier.  Another is to distract myself with work or Whitney or friends.  I can pray to Heavenly Father and explain my situation.  Finally, I can prevent myself from having the thought in the first place, by keeping busy and thinking pure things.   
-\item When it comes to stocks, I tend to do poorly with ultra high risk.  I'm okay taking the plunge, I just usually make bad decisions afterward, and since they are very costly under high risk, it usually loses me the majority of the account value. 
-\item I love the idea of tools to think new ways and new thoughts:  those asian kids that do crazy math with an abacus, brett victor's ideas, the creativity program I wrote in R.  Convergent, vs. divergent vs. idea manipulation aids. (abacus, random idea generator, algebraic notation.)  Imagine a 3D graph of your profits, and you could play endlessly with different numbers.  
-\item My sweet spot is to apply structural models.  I don't want to invent them.  It's not fun or interesting.  I want to be good at figuring out questions. 
-\end{enumerate}
-
-This is a list of more general observations.
-\begin{enumerate}
+\item I really love minimalism in objects and spaces, but not necessarily at home.  I like to work in places like that.  I love the idea of attaching functions or activities to places.  I want to work in a minimalist building with high ceilings and talk with colleagues about product design.
+\item I love the idea of tools to think new ways and new thoughts:  those asian kids that do crazy math with an abacus, brett victor's ideas, the creativity program I wrote in R.  Convergent, vs. divergent vs. idea manipulation aids. (abacus, random idea generator, algebraic notation.)  Imagine a 3D graph of your profits, and you could play endlessly with different variables.  
 \item \textbf{Hybrid Systems} Two components both working on their best thing and trading off.  Carbon fiber (the carbon fabric has awesome tensile strength but isn't rigid, the resin adds the rigidity),  Gasoline + Electricity, Apple's Fusion Drive.  Are alloys considered hybrid systems?  At the molecular or atomic scale, maybe.  At the human scale, probably not.  
 \item \textbf{Density Meets Convexity} If a function is increasing and convex, then the returns to scale are fantastic.  It's just plain old convex programming I guess, and maybe this observation isn't all so insightful, but it just strikes me as crazy how often you see that a major improvement was made on a material or object because someone figured out a new way to arrange some sub-structures more densely.  Micro chips are a great example.  Moore's law is driven by the ability of engineers to cram more transistors onto a chip.  It's such a huge, important consequence of one small thing.
 \item \textbf{Integration} The benefits of integration vs. decentralization seem sort of complex.  You have more control with integration but also more obstacles.  Coase's ideas seem quite relevant: as long as the transaction cost in a decentralized world exceed the costs in an integrated one, the firm will exist.  A major transaction cost for both Apple and Tesla was the vision.  Getting a contractor to share the vision was too hard.  Maybe this means that if you face exacting constraints, you favor integration.  Otherwise, you farm out the work.  Or, to use the words of a saying ``if you want something done right, you have to do it yourself.''  This is probably why firms won't go away until we can communicate super well.  
