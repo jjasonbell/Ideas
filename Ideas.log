@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.2.7)  28 JUL 2016 09:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.2.7)  9 AUG 2016 11:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,24 +695,24 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
  [4]
-Overfull \hbox (2.7638pt too wide) in paragraph at lines 214--215
+Overfull \hbox (2.7638pt too wide) in paragraph at lines 218--219
 \T1/futs/m/n/10.95 charg-ing a pre-mium un-til com-peti-tors catch up, or ac-qu
 ir-ing more mar-ket share? Which
  []
 
 [5]
-Overfull \hbox (0.62946pt too wide) in paragraph at lines 224--225
+Overfull \hbox (0.62946pt too wide) in paragraph at lines 228--229
 []\T1/futs/b/n/10.95 Tradeoffs Be-tween Cer-tain, Risky, and Un-cer-tain At-tri
 butes \T1/futs/m/n/10.95 Sup-pose a de-ci-sion maker
  []
 
-[6] [7] [8] [9] [10] [11] [12]
-Overfull \hbox (9.89891pt too wide) in paragraph at lines 384--385
+[6] [7] [8] [9] [10] [11] [12] [13]
+Overfull \hbox (9.89891pt too wide) in paragraph at lines 395--396
 []\T1/futs/b/n/10.95 Positive De-viance Feed \T1/futs/m/n/10.95 I guess the poi
 nt of pos-i-tive de-viance is that know-ing isn't enough.
  []
 
-[13] [14] [15] [16] [17] (./Ideas.bbl) [18] (./Ideas.aux) ) 
+[14] [15] [16] [17] (./Ideas.bbl [18]) [19] (./Ideas.aux) ) 
 Here is how much of TeX's memory you used:
  6764 strings out of 493488
  95965 string characters out of 3141327
@@ -720,17 +720,17 @@ Here is how much of TeX's memory you used:
  9913 multiletter control sequences out of 15000+200000
  92652 words of font info for 109 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,11n,47p,1394b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,11n,47p,1394b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/
 2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2012/texmf-dist
 /fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2012/texmf-dist/
 fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
 ype1/adobe/utopia/putr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ad
 obe/utopia/putri8a.pfb>
-Output written on Ideas.pdf (18 pages, 116567 bytes).
+Output written on Ideas.pdf (19 pages, 118425 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
