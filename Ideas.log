@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.2.7)  16 AUG 2016 08:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.2.7)  16 AUG 2016 08:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -521,7 +521,7 @@ LaTeX Info: Redefining \sc on input line 85.
 LaTeX Info: Redefining \cal on input line 86.
 LaTeX Info: Redefining \mit on input line 87.
 
-(./Ideas.aux)
+No file Ideas.aux.
 \openout1 = `Ideas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
@@ -539,13 +539,14 @@ LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 111.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 111
 .
- (/usr/local/texlive/2012/texmf-dist/tex/latex/fourier/fmlfutm.fd
+(/usr/local/texlive/2012/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 111.
 LaTeX Font Info:    Try loading font information for FMS+futm on input line 111
 .
+
 (/usr/local/texlive/2012/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
@@ -694,7 +695,20 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
- [4]
+
+
+Package natbib Warning: Citation `hitsch2006empirical' on page 4 undefined on i
+nput line 203.
+
+
+Package natbib Warning: Citation `hitsch2006empirical' on page 4 undefined on i
+nput line 203.
+
+
+Package natbib Warning: Citation `delossantos' on page 4 undefined on input lin
+e 205.
+
+[4]
 Overfull \hbox (2.7638pt too wide) in paragraph at lines 218--219
 \T1/futs/m/n/10.95 charg-ing a pre-mium un-til com-peti-tors catch up, or ac-qu
 ir-ing more mar-ket share? Which
@@ -712,25 +726,29 @@ Overfull \hbox (9.89891pt too wide) in paragraph at lines 397--398
 nt of pos-i-tive de-viance is that know-ing isn't enough.
  []
 
-[14] [15] [16] [17] (./Ideas.bbl [18]) [19] (./Ideas.aux) ) 
+[14] [15] [16] [17]
+No file Ideas.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[18] (./Ideas.aux) ) 
 Here is how much of TeX's memory you used:
- 6764 strings out of 493488
- 95965 string characters out of 3141327
- 175858 words of memory out of 3000000
- 9913 multiletter control sequences out of 15000+200000
+ 6745 strings out of 493488
+ 95702 string characters out of 3141327
+ 175751 words of memory out of 3000000
+ 9898 multiletter control sequences out of 15000+200000
  92652 words of font info for 109 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  47i,11n,47p,1394b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/
-2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2012/texmf-dist
-/fonts/type1/public/fourier/fourier-ms.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/adobe/utopia/putr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ad
-obe/utopia/putri8a.pfb>
-Output written on Ideas.pdf (19 pages, 118722 bytes).
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r
+.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/fourier/fourier-ms.
+pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Ideas.pdf (18 pages, 114113 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
