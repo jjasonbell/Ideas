@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.2.7)  13 AUG 2016 13:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.2.7)  16 AUG 2016 08:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -727,7 +727,7 @@ Here is how much of TeX's memory you used:
 fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
 ype1/adobe/utopia/putr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ad
 obe/utopia/putri8a.pfb>
-Output written on Ideas.pdf (19 pages, 118609 bytes).
+Output written on Ideas.pdf (19 pages, 118722 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
