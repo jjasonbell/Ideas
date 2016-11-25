@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.2.7)  16 AUG 2016 08:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.2.7)  25 NOV 2016 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -720,17 +720,17 @@ butes \T1/futs/m/n/10.95 Sup-pose a de-ci-sion maker
  []
 
 [6] [7] [8] [9] [10] [11] [12] [13]
-Overfull \hbox (9.89891pt too wide) in paragraph at lines 397--398
+Overfull \hbox (9.89891pt too wide) in paragraph at lines 406--407
 []\T1/futs/b/n/10.95 Positive De-viance Feed \T1/futs/m/n/10.95 I guess the poi
 nt of pos-i-tive de-viance is that know-ing isn't enough.
  []
 
-[14] [15] [16] [17]
+[14] [15] [16] [17] [18]
 No file Ideas.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[18] (./Ideas.aux) ) 
+[19] (./Ideas.aux) ) 
 Here is how much of TeX's memory you used:
  6748 strings out of 493488
  95739 string characters out of 3141327
@@ -738,16 +738,16 @@ Here is how much of TeX's memory you used:
  9899 multiletter control sequences out of 15000+200000
  92652 words of font info for 109 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,11n,47p,1394b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,11n,47p,1394b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r
 .enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/fourier/fourier-ms.
 pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></u
 sr/local/texlive/2012/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/loca
 l/texlive/2012/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Ideas.pdf (18 pages, 114113 bytes).
+Output written on Ideas.pdf (19 pages, 115910 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
