@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAR 2017 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAR 2017 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -676,86 +676,51 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 114.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 119.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 119.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 119.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 119.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 119.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 119.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 126.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 126.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 126.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 126.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 137.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 251.
  [1
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-
-
-Package natbib Warning: Citation `hitsch2006empirical' on page 4 undefined on i
-nput line 205.
-
-
-Package natbib Warning: Citation `hitsch2006empirical' on page 4 undefined on i
-nput line 205.
-
-
-Package natbib Warning: Citation `delossantos' on page 4 undefined on input lin
-e 207.
-
-[4]
-Overfull \hbox (2.7638pt too wide) in paragraph at lines 220--221
-\T1/futs/m/n/10.95 charg-ing a pre-mium un-til com-peti-tors catch up, or ac-qu
-ir-ing more mar-ket share? Which
- []
-
-[5]
-Overfull \hbox (0.62946pt too wide) in paragraph at lines 230--231
-[]\T1/futs/b/n/10.95 Tradeoffs Be-tween Cer-tain, Risky, and Un-cer-tain At-tri
-butes \T1/futs/m/n/10.95 Sup-pose a de-ci-sion maker
- []
-
-[6] [7] [8] [9] [10] [11] [12] [13] [14]
+ [4] [5]
+[6]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 355.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 355.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 355.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 355.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 355.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 355.
+ [7] [8] [9]
 Overfull \hbox (9.89891pt too wide) in paragraph at lines 433--434
 []\T1/futs/b/n/10.95 Positive De-viance Feed \T1/futs/m/n/10.95 I guess the poi
 nt of pos-i-tive de-viance is that know-ing isn't enough.
  []
 
-[15] [16] [17] [18] [19]
-No file Ideas.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[20] (./Ideas.aux) ) 
+[10] [11] [12] [13] [14] (./Ideas.aux) ) 
 Here is how much of TeX's memory you used:
- 7592 strings out of 493014
- 115160 string characters out of 6133351
- 264369 words of memory out of 5000000
- 10976 multiletter control sequences out of 15000+600000
- 92652 words of font info for 109 fonts, out of 8000000 for 9000
+ 7564 strings out of 493014
+ 114800 string characters out of 6133351
+ 263369 words of memory out of 5000000
+ 10955 multiletter control sequences out of 15000+600000
+ 76150 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,11n,51p,8484b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r
-.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/fourier/fourier-ms.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Ideas.pdf (20 pages, 120232 bytes).
+ 47i,12n,51p,8484b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/fourier/fourier-ms.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/u
+topia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/p
+utr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.
+pfb>
+Output written on Ideas.pdf (14 pages, 98029 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

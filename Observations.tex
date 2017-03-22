@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{amscd}
+\usepackage{amssymb}
+
+\usepackage{color}
+\definecolor{light-gray}{gray}{0.95}
+\usepackage{natbib}
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{graphicx} % For graphics
+
+\usepackage{listings} % For displaying code
+\usepackage{courier}
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\lstset{
+         basicstyle=\footnotesize\ttfamily, % font is monospace and small
+         %numbers=left,              
+         numberstyle=\tiny,          % size of numbers
+         %stepnumber=2,               
+         numbersep=5pt,              
+         tabsize=2,                  
+         extendedchars=false,         
+         breaklines=true,            
+         keywordstyle=\color{red},
+         stringstyle=\color{white}\ttfamily, 
+         showspaces=false,           % white spaces
+         showtabs=false,             % no character when tab is pressed
+         xleftmargin=25pt,
+         framexleftmargin=17pt,
+         framexrightmargin=5pt,
+         framexbottommargin=4pt,
+         %backgroundcolor=\color{lightgray},
+         showstringspaces=false      % don't show spaces    
+ }
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+%the below reassigns the function \texttt{} the name "code".  So instead of typing \texttt{blah blah} you can %type \code{blah blah}.  It's just easier.
+
+\newcommand{\code}[1]{\texttt{#1}}
+
+\title{	
+\normalfont \normalsize 
+%\textsc{The University of Iowa} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Observations \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{J. Jason Bell} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	Observations
+%----------------------------------------------------------------------------------------
+
+
+Some general observations.
+ 
+\begin{enumerate} 
+\item \textbf{Hybrid Systems} Two components both working on their best thing and trading off.  Carbon fiber (the carbon fabric has awesome tensile strength but isn't rigid, the resin adds the rigidity),  Gasoline + Electricity, Apple's Fusion Drive.  Are alloys considered hybrid systems?  At the molecular or atomic scale, maybe.  At the human scale, probably not.  
+\item \textbf{Density Meets Convexity} If a function is increasing and convex, then the returns to scale are fantastic.  It's just plain old convex programming I guess, and maybe this observation isn't all so insightful, but it just strikes me as crazy how often you see that a major improvement was made on a material or object because someone figured out a new way to arrange some sub-structures more densely.  Micro chips are a great example.  Moore's law is driven by the ability of engineers to cram more transistors onto a chip.  It's such a huge, important consequence of one small thing.
+\item \textbf{Integration} The benefits of integration vs. decentralization seem sort of complex.  You have more control with integration but also more obstacles.  Coase's ideas seem quite relevant: as long as the transaction cost in a decentralized world exceed the costs in an integrated one, the firm will exist.  A major transaction cost for both Apple and Tesla was the vision.  Getting a contractor to share the vision was too hard.  Maybe this means that if you face exacting constraints, you favor integration.  Otherwise, you farm out the work.  Or, to use the words of a saying ``if you want something done right, you have to do it yourself.''  This is probably why firms won't go away until we can communicate super well.  
+\end{enumerate}
+
+\end{document}
