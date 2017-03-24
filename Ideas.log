@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAR 2017 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 MAR 2017 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,19 +685,19 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
  [4] [5]
 [6]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 355.
+(Font)              scaled to size 10.07397pt on input line 353.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 355.
+(Font)              scaled to size 7.63599pt on input line 353.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 355.
+(Font)              scaled to size 5.51999pt on input line 353.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 355.
+(Font)              scaled to size 10.07397pt on input line 353.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 355.
+(Font)              scaled to size 7.63599pt on input line 353.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 355.
+(Font)              scaled to size 5.51999pt on input line 353.
  [7] [8] [9]
-Overfull \hbox (9.89891pt too wide) in paragraph at lines 433--434
+Overfull \hbox (9.89891pt too wide) in paragraph at lines 431--432
 []\T1/futs/b/n/10.95 Positive De-viance Feed \T1/futs/m/n/10.95 I guess the poi
 nt of pos-i-tive de-viance is that know-ing isn't enough.
  []
@@ -717,7 +717,7 @@ ts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public
 topia/putb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/p
 utr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/adobe/utopia/putri8a.
 pfb>
-Output written on Ideas.pdf (14 pages, 98029 bytes).
+Output written on Ideas.pdf (14 pages, 97806 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
